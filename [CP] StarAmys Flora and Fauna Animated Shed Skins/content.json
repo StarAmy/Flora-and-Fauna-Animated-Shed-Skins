@@ -1,0 +1,2131 @@
+{
+   "Format":"1.20.0",
+   "ConfigSchema":{
+       "Version":{
+         "AllowValues":"Vanilla, Eemie",
+         "Default":"Vanilla"
+      },
+      "Shed Theme":{
+         "AllowValues":"None, Plant, Pet, Fish",
+         "Default":"Plant"
+      },
+       "Big Shed Theme":{
+         "AllowValues":"None, Plant, Pet, Fish",
+         "Default":"Plant"
+      }
+   },
+   "Changes":[
+      {
+         "LogName":"Spring Animated Daytime Fish Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Fish Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Fish Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Fish Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Fish Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Fish Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Fish Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/fish_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Fish Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/fish_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Daytime Plant Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Plant Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Plant Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Plant Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Plant Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Plant Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Plant Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Plant Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+            {
+         "LogName":"Spring Animated Daytime Pet Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Pet Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Pet Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Pet Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Pet Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Pet Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Pet Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Pet Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Daytime Fish Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Fish Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Fish Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Fish Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Fish Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Fish Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Fish Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/fish_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Fish Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/fish_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Fish",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Daytime Plant Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Plant Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Plant Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Plant Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Plant Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Plant Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Plant Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Plant Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Plant_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Plant",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+            {
+         "LogName":"Spring Animated Daytime Pet Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Pet Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Pet Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Pet Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Pet Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Pet Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Pet Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Pet Big Shed Vanilla",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Vanilla/Pet_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Pet",
+            "Version":"Vanilla"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Daytime Fish Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Fish Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Fish Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Fish Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Fish Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Fish Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Fish Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/fish_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Fish Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/fish_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Daytime Plant Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Plant Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Plant Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Plant Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Plant Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Plant Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Plant Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Plant_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Plant Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Plant_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+            {
+         "LogName":"Spring Animated Daytime Pet Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Pet Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Pet Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Pet Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Pet Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Pet Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Pet Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Pet_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Pet Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Shed",
+         "FromFile":"assets/Eemie/Pet_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Daytime Fish Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Fish Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Fish Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Fish Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Fish Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/fish_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Fish Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/fish_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Fish Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/fish_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Fish Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/fish_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Fish",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Daytime Plant Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Plant Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Plant Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Plant Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Plant Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Plant_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Plant Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Plant_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Plant Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Plant_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Plant Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Plant_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":3,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Plant",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+            {
+         "LogName":"Spring Animated Daytime Pet Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Spring Animated Nighttime Pet Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Spring",
+            "Big Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summmer Animated Daytime Pet Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Summer Animated Nighttime Pet Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Summer",
+            "Big Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Daytime Pet Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Pet_shed_day.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Fall Animated Nighttime Pet Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Pet_shed_night.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Fall",
+            "Big Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Daytime Winter Pet Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Pet_shed_day_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":6,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 0600, 1900}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      },
+      {
+         "LogName":"Animated Nighttime Winter Pet Big Shed Eemie",
+         "Action":"EditImage",
+         "Target":"Buildings/Big Shed",
+         "FromFile":"assets/Eemie/Pet_shed_night_winter.png",
+         "FromArea":{
+            "X":0,
+            "Y":0,
+            "Width":112,
+            "Height":128
+         },
+         "AnimationFrameTime":20,
+         "AnimationFrameCount":1,
+         "When":{
+            "HasMod":"spacechase0.ContentPatcherAnimations",
+            "Time":"{{Range: 1900, 2600}}",
+            "Season":"Winter",
+            "Big Shed Theme":"Pet",
+            "Version":"Eemie"
+         },
+         "Update":"OnLocationChange, OnTimeChange"
+      }
+   ]
+}

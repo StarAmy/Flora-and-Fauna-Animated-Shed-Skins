@@ -1,0 +1,10 @@
+{
+   "Name": "StarAmy's Flora and Fauna Animated Shed Skins",
+   "Author": "StarAmy",
+   "Version": "1.0.0",
+   "Description": "New themed shed skins",
+   "UniqueID": "Staramy.ShedSkins",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}
